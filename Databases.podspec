@@ -8,7 +8,7 @@ s.summary = "Databases lets a user interact with databases."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.1.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -17,7 +17,7 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "mrtestingapps" => "mrtestingapps@gmail.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
-s.homepage = "https://github.com/TheCodedSelf/RWPickFlavor"
+s.homepage = "https://github.com/mrtestingapps"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
 s.source = { :git => "https://github.com/mrtestingapps/databases.git", 
@@ -29,7 +29,7 @@ s.framework = "UIKit"
 s.source_files = "Databases/**/*.{swift}"
 
 # 9
-s.resources = "Databases/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "Databases/Database/Gitr.xcdatamodeld/*.xcdatamodel"
 
 # 10
 s.swift_version = "5.0"
